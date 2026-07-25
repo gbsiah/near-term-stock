@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Generate a scenario-based list of ten liquid U.S. stocks under $120 for a 1–5 trading-day research horizon."
+    />
+    <title>Near Term Signal — U.S. Stock Screen</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Near Term Signal home">
+        <span class="brand-mark" aria-hidden="true">N/</span>
+        <span>Near Term Signal</span>
+      </a>
+      <div class="market-state"><span class="market-dot"></span>U.S. equity screen</div>
+    </header>
+
+    <main>
+      <section class="workspace" id="top">
+        <div class="intro">
+          <p class="eyebrow">Quantitative research / 1–5 trading days</p>
+          <h1>Ten liquid stocks.<br />One near-term screen.</h1>
+          <p class="lede">
+            Rank U.S.-listed names under $120 using current price action,
+            sector strength, volume, downside risk, and scenario-weighted targets.
+          </p>
+        </div>
+        <div class="run-panel">
+          <dl class="scope-list">
+            <div><dt>Universe</dt><dd>Liquid U.S. listings</dd></div>
+            <div><dt>Price ceiling</dt><dd>Under $120</dd></div>
+            <div><dt>Risk profile</dt><dd>Balanced</dd></div>
+            <div><dt>Output</dt><dd>10 ranked stocks</dd></div>
+          </dl>
+          <button class="run-button" id="run-screen" type="button">
+            <span>Generate the list</span><span aria-hidden="true">↗</span>
+          </button>
+          <p class="run-note">
+            Daily refreshed, delayed or previous-close data. Research output,
+            not personal financial advice.
+          </p>
+          <p class="error-message" id="error-message" role="alert" hidden></p>
+        </div>
+      </section>
+
+      <section class="signal-band" aria-label="Method summary">
+        <span>01 / Expectation changes</span>
+        <span>02 / Relative momentum</span>
+        <span>03 / Bear · Base · Bull</span>
+        <span>04 / Downside first</span>
+      </section>
+
+      <section class="ready-section" id="ready-state">
+        <div>
+          <p class="eyebrow">Ready to screen</p>
+          <h2>The ranked field will land here.</h2>
+        </div>
+        <div class="ready-index" aria-hidden="true">
+          <span>01</span><span>02</span><span>03</span><span>04</span><span>05</span>
+          <span>06</span><span>07</span><span>08</span><span>09</span><span>10</span>
+        </div>
+      </section>
+
+      <section class="loading-section" id="loading-state" aria-live="polite" hidden>
+        <div>
+          <p class="eyebrow">Screen in progress</p>
+          <h2>Reading price, volume, and sector signals.</h2>
+          <p>The ranking will appear when ten qualifying names are scored.</p>
+        </div>
+        <div class="scan-lines" aria-hidden="true"></div>
+      </section>
+
+      <section class="results-section" id="ranked-results" hidden>
+        <div class="results-heading">
+          <div><p class="eyebrow">Latest ranked screen</p><h2>Near-term signal list</h2></div>
+          <dl class="results-meta">
+            <div><dt>Data date</dt><dd id="data-date">—</dd></div>
+            <div><dt>Horizon</dt><dd id="horizon">—</dd></div>
+          </dl>
+        </div>
+        <div class="table-header" aria-hidden="true">
+          <span>Rank / stock</span><span>Current</span><span>Bear–bull range</span>
+          <span>Weighted</span><span>Setup / confidence</span><span></span>
+        </div>
+        <div class="results-list" id="results-list"></div>
+        <div class="method-note">
+          <div><p class="eyebrow">Screen construction</p><p id="universe"></p><p id="methodology"></p></div>
+          <div><p class="eyebrow">Data limitations</p><p id="limitations"></p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <span class="brand footer-brand"><span class="brand-mark">N/</span>Near Term Signal</span>
+        <p>Structured, uncertain research for faster first-pass screening.</p>
+      </div>
+      <p>
+        Forecasts are scenarios, not certainties. Verify prices, catalysts,
+        fundamentals, and suitability independently.
+      </p>
+    </footer>
+  </body>
+</html>
