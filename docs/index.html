@@ -9,6 +9,7 @@
     />
     <title>Near Term Signal — U.S. Stock Screen</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./pdf-export.js" defer></script>
     <script src="./app.js" defer></script>
   </head>
   <body>
@@ -78,10 +79,16 @@
       <section class="results-section" id="ranked-results" hidden>
         <div class="results-heading">
           <div><p class="eyebrow">Latest ranked screen</p><h2>Near-term signal list</h2></div>
-          <dl class="results-meta">
-            <div><dt>Data date</dt><dd id="data-date">—</dd></div>
-            <div><dt>Horizon</dt><dd id="horizon">—</dd></div>
-          </dl>
+          <div class="results-actions">
+            <dl class="results-meta">
+              <div><dt>Data date</dt><dd id="data-date">—</dd></div>
+              <div><dt>Horizon</dt><dd id="horizon">—</dd></div>
+            </dl>
+            <button class="export-button" id="export-pdf" type="button" disabled>
+              <span>Save timestamped PDF</span><span aria-hidden="true">↓</span>
+            </button>
+            <p class="export-status" id="export-status" aria-live="polite"></p>
+          </div>
         </div>
         <div class="table-header" aria-hidden="true">
           <span>Rank / stock</span><span>Current</span><span>Bear–bull range</span>

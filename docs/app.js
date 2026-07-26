@@ -4,8 +4,11 @@ const loadingState = document.querySelector("#loading-state");
 const resultsSection = document.querySelector("#ranked-results");
 const resultsList = document.querySelector("#results-list");
 const errorMessage = document.querySelector("#error-message");
+const exportButton = document.querySelector("#export-pdf");
+const exportStatus = document.querySelector("#export-status");
 const money = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
 const compact = new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 });
+let lastScreen = null;
 
 document.querySelector(".scan-lines").innerHTML = Array.from(
   { length: 10 },
@@ -32,18 +35,33 @@ runButton.addEventListener("click", async () => {
   }
 });
 
+exportButton.addEventListener("click", () => {
+  if (!lastScreen || !globalThis.NearTermPdf) return;
+  exportButton.disabled = true;
+  try {
+    const filename = globalThis.NearTermPdf.downloadPdf(lastScreen, new Date());
+    exportStatus.textContent = `Saved ${filename}`;
+  } catch (error) {
+    exportStatus.textContent = error instanceof Error ? error.message : "The PDF could not be saved.";
+  } finally {
+    exportButton.disabled = false;
+  }
+});
+
 function setLoading(isLoading) {
   runButton.disabled = isLoading;
   runButton.querySelector("span").textContent = isLoading ? "Loading the latest screen" : "Run a fresh screen";
   errorMessage.hidden = true;
   loadingState.hidden = !isLoading;
   if (isLoading) {
+    exportStatus.textContent = "";
     readyState.hidden = true;
     resultsSection.hidden = true;
   }
 }
 
 function renderScreen(screen) {
+  lastScreen = screen;
   document.querySelector("#data-date").textContent = screen.dataDate;
   document.querySelector("#horizon").textContent = screen.horizon;
   document.querySelector("#universe").textContent = screen.universe;
@@ -52,6 +70,7 @@ function renderScreen(screen) {
   resultsList.innerHTML = screen.results.map(stockTemplate).join("");
   readyState.hidden = true;
   resultsSection.hidden = false;
+  exportButton.disabled = false;
 }
 
 function stockTemplate(stock) {
