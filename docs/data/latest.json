@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T23:19:21.228Z",
-  "dataDate": "2026-07-27",
+  "generatedAt": "2026-07-28T23:14:27.604Z",
+  "dataDate": "2026-07-28",
   "horizon": "1–5 trading days",
   "universe": "59 pre-screened liquid U.S. listings; $2–$120 price; 20-day average volume of at least 500,000 shares",
   "methodology": "Availability-adjusted skill screen: price momentum 30%, sector support 20%, technical trend 15%, volume/positioning 10%, expectation room 10%, downside risk 10%, liquidity 5%.",
@@ -8,243 +8,243 @@
   "results": [
     {
       "rank": 1,
-      "company": "Nu Holdings",
-      "ticker": "NU",
-      "exchange": "NYSE",
-      "currency": "USD",
-      "sector": "Financials",
-      "currentPrice": 14.53,
-      "dataDate": "2026-07-27",
-      "entryReferenceZone": [
-        14.45,
-        14.61
-      ],
-      "targetRange": [
-        13.97,
-        15.18
-      ],
-      "weightedTarget": 14.67,
-      "impliedReturn": 1,
-      "setup": "Strong bullish setup",
-      "risk": "Balanced",
-      "confidence": "Medium",
-      "score": 1.41,
-      "metrics": {
-        "fiveDayMomentum": 6.9,
-        "twentyDayMomentum": 16.6,
-        "sixtyDayMomentum": 0.2,
-        "rsi14": 57,
-        "averageVolume": 104303797,
-        "volumeTrend": 64
-      },
-      "scenarios": [
-        {
-          "name": "Bear",
-          "probability": 25,
-          "target": 13.97,
-          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
-        },
-        {
-          "name": "Base",
-          "probability": 50,
-          "target": 14.77,
-          "logic": "Recent momentum and sector direction persist without a material expectation shock."
-        },
-        {
-          "name": "Bull",
-          "probability": 25,
-          "target": 15.18,
-          "logic": "Relative strength holds and price extends about one volatility band higher."
-        }
-      ],
-      "drivers": [
-        "Positive 20-day price momentum of 16.6%.",
-        "Rising 20-day volume versus the prior month (64%).",
-        "Financials peer momentum is supportive."
-      ],
-      "pricedIn": "Price sits mid-range, suggesting neither an obvious momentum premium nor a deep expectation discount.",
-      "invalidation": "Failure to hold the $13.97 bear-case level would invalidate the near-term range.",
-      "sourceUrl": "https://finance.yahoo.com/quote/NU"
-    },
-    {
-      "rank": 2,
       "company": "AT&T",
       "ticker": "T",
       "exchange": "NYSE",
       "currency": "USD",
       "sector": "Communication Services",
-      "currentPrice": 24.42,
-      "dataDate": "2026-07-27",
+      "currentPrice": 24.66,
+      "dataDate": "2026-07-28",
       "entryReferenceZone": [
-        24.28,
-        24.56
+        24.52,
+        24.8
       ],
       "targetRange": [
-        23.38,
-        25.61
+        23.67,
+        25.81
       ],
-      "weightedTarget": 24.66,
+      "weightedTarget": 24.91,
       "impliedReturn": 1,
       "setup": "Strong bullish setup",
       "risk": "Balanced",
       "confidence": "Medium",
-      "score": 1.25,
+      "score": 1.37,
       "metrics": {
-        "fiveDayMomentum": 12,
-        "twentyDayMomentum": 8.9,
-        "sixtyDayMomentum": -6.3,
-        "rsi14": 88,
-        "averageVolume": 93211577,
-        "volumeTrend": 71
+        "fiveDayMomentum": 10.8,
+        "twentyDayMomentum": 13,
+        "sixtyDayMomentum": -5.6,
+        "rsi14": 87,
+        "averageVolume": 91277036,
+        "volumeTrend": 59
       },
       "scenarios": [
         {
           "name": "Bear",
           "probability": 25,
-          "target": 23.38,
+          "target": 23.67,
           "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
         },
         {
           "name": "Base",
           "probability": 50,
-          "target": 24.82,
+          "target": 25.07,
           "logic": "Recent momentum and sector direction persist without a material expectation shock."
         },
         {
           "name": "Bull",
           "probability": 25,
-          "target": 25.61,
+          "target": 25.81,
           "logic": "Relative strength holds and price extends about one volatility band higher."
         }
       ],
       "drivers": [
-        "Positive 20-day price momentum of 8.9%.",
-        "Rising 20-day volume versus the prior month (71%).",
+        "Positive 20-day price momentum of 13%.",
+        "Rising 20-day volume versus the prior month (59%).",
         "Communication Services peer momentum is supportive."
       ],
       "pricedIn": "Price sits mid-range, suggesting neither an obvious momentum premium nor a deep expectation discount.",
-      "invalidation": "Failure to hold the $23.38 bear-case level would invalidate the near-term range.",
+      "invalidation": "Failure to hold the $23.67 bear-case level would invalidate the near-term range.",
       "sourceUrl": "https://finance.yahoo.com/quote/T"
     },
     {
-      "rank": 3,
-      "company": "PayPal",
-      "ticker": "PYPL",
-      "exchange": "NASDAQ",
+      "rank": 2,
+      "company": "Nu Holdings",
+      "ticker": "NU",
+      "exchange": "NYSE",
       "currency": "USD",
       "sector": "Financials",
-      "currentPrice": 56.07,
-      "dataDate": "2026-07-27",
+      "currentPrice": 14.68,
+      "dataDate": "2026-07-28",
       "entryReferenceZone": [
-        55.51,
-        56.63
+        14.61,
+        14.75
       ],
       "targetRange": [
-        52.02,
-        60.64
+        14.18,
+        15.25
       ],
-      "weightedTarget": 56.89,
-      "impliedReturn": 1.5,
+      "weightedTarget": 14.8,
+      "impliedReturn": 0.8,
       "setup": "Strong bullish setup",
-      "risk": "Elevated",
+      "risk": "Balanced",
       "confidence": "Medium",
-      "score": 1.13,
+      "score": 1.33,
       "metrics": {
-        "fiveDayMomentum": -0.9,
-        "twentyDayMomentum": 32.3,
-        "sixtyDayMomentum": 13,
-        "rsi14": 83,
-        "averageVolume": 20351637,
-        "volumeTrend": 21
+        "fiveDayMomentum": 2,
+        "twentyDayMomentum": 11.8,
+        "sixtyDayMomentum": 1.4,
+        "rsi14": 71,
+        "averageVolume": 107527229,
+        "volumeTrend": 74
       },
       "scenarios": [
         {
           "name": "Bear",
           "probability": 25,
-          "target": 52.02,
+          "target": 14.18,
           "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
         },
         {
           "name": "Base",
           "probability": 50,
-          "target": 57.46,
+          "target": 14.88,
           "logic": "Recent momentum and sector direction persist without a material expectation shock."
         },
         {
           "name": "Bull",
           "probability": 25,
-          "target": 60.64,
+          "target": 15.25,
           "logic": "Relative strength holds and price extends about one volatility band higher."
         }
       ],
       "drivers": [
-        "Positive 20-day price momentum of 32.3%.",
-        "Rising 20-day volume versus the prior month (21%).",
+        "Positive 20-day price momentum of 11.8%.",
+        "Rising 20-day volume versus the prior month (74%).",
         "Financials peer momentum is supportive."
       ],
-      "pricedIn": "Positive momentum is already partly reflected near the upper end of its six-month range.",
-      "invalidation": "Failure to hold the $52.02 bear-case level would invalidate the near-term range.",
-      "sourceUrl": "https://finance.yahoo.com/quote/PYPL"
+      "pricedIn": "Price sits mid-range, suggesting neither an obvious momentum premium nor a deep expectation discount.",
+      "invalidation": "Failure to hold the $14.18 bear-case level would invalidate the near-term range.",
+      "sourceUrl": "https://finance.yahoo.com/quote/NU"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "company": "Verizon",
       "ticker": "VZ",
       "exchange": "NYSE",
       "currency": "USD",
       "sector": "Communication Services",
-      "currentPrice": 47.32,
-      "dataDate": "2026-07-27",
+      "currentPrice": 48.19,
+      "dataDate": "2026-07-28",
       "entryReferenceZone": [
-        47.03,
-        47.61
+        47.92,
+        48.46
       ],
       "targetRange": [
-        45.21,
-        49.68
+        46.26,
+        50.39
       ],
-      "weightedTarget": 47.72,
+      "weightedTarget": 48.61,
       "impliedReturn": 0.9,
       "setup": "Strong bullish setup",
       "risk": "Balanced",
       "confidence": "Medium",
-      "score": 1.06,
+      "score": 1.21,
       "metrics": {
-        "fiveDayMomentum": 8.6,
-        "twentyDayMomentum": 2.7,
-        "sixtyDayMomentum": 0.2,
-        "rsi14": 82,
-        "averageVolume": 33994870,
-        "volumeTrend": 30
+        "fiveDayMomentum": 10.1,
+        "twentyDayMomentum": 9.3,
+        "sixtyDayMomentum": 0.3,
+        "rsi14": 84,
+        "averageVolume": 32822208,
+        "volumeTrend": 18
       },
       "scenarios": [
         {
           "name": "Bear",
           "probability": 25,
-          "target": 45.21,
+          "target": 46.26,
           "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
         },
         {
           "name": "Base",
           "probability": 50,
-          "target": 48,
+          "target": 48.91,
           "logic": "Recent momentum and sector direction persist without a material expectation shock."
         },
         {
           "name": "Bull",
           "probability": 25,
-          "target": 49.68,
+          "target": 50.39,
           "logic": "Relative strength holds and price extends about one volatility band higher."
         }
       ],
       "drivers": [
-        "Positive 20-day price momentum of 2.7%.",
-        "Rising 20-day volume versus the prior month (30%).",
+        "Positive 20-day price momentum of 9.3%.",
+        "Rising 20-day volume versus the prior month (18%).",
         "Communication Services peer momentum is supportive."
       ],
       "pricedIn": "Price sits mid-range, suggesting neither an obvious momentum premium nor a deep expectation discount.",
-      "invalidation": "Failure to hold the $45.21 bear-case level would invalidate the near-term range.",
+      "invalidation": "Failure to hold the $46.26 bear-case level would invalidate the near-term range.",
       "sourceUrl": "https://finance.yahoo.com/quote/VZ"
+    },
+    {
+      "rank": 4,
+      "company": "Snap",
+      "ticker": "SNAP",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "sector": "Communication Services",
+      "currentPrice": 4.77,
+      "dataDate": "2026-07-28",
+      "entryReferenceZone": [
+        4.74,
+        4.8
+      ],
+      "targetRange": [
+        4.55,
+        5.01
+      ],
+      "weightedTarget": 4.81,
+      "impliedReturn": 0.8,
+      "setup": "Moderately positive",
+      "risk": "Balanced",
+      "confidence": "Medium",
+      "score": 0.98,
+      "metrics": {
+        "fiveDayMomentum": 4.6,
+        "twentyDayMomentum": 7.9,
+        "sixtyDayMomentum": -21.4,
+        "rsi14": 56,
+        "averageVolume": 33635155,
+        "volumeTrend": -30
+      },
+      "scenarios": [
+        {
+          "name": "Bear",
+          "probability": 25,
+          "target": 4.55,
+          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
+        },
+        {
+          "name": "Base",
+          "probability": 50,
+          "target": 4.83,
+          "logic": "Recent momentum and sector direction persist without a material expectation shock."
+        },
+        {
+          "name": "Bull",
+          "probability": 25,
+          "target": 5.01,
+          "logic": "Relative strength holds and price extends about one volatility band higher."
+        }
+      ],
+      "drivers": [
+        "Positive 20-day price momentum of 7.9%.",
+        "Cooling 20-day volume versus the prior month (-30%).",
+        "Communication Services peer momentum is supportive."
+      ],
+      "pricedIn": "Expectations appear subdued versus the six-month range, leaving rebound room if momentum persists.",
+      "invalidation": "Failure to hold the $4.55 bear-case level would invalidate the near-term range.",
+      "sourceUrl": "https://finance.yahoo.com/quote/SNAP"
     },
     {
       "rank": 5,
@@ -253,358 +253,358 @@
       "exchange": "NYSE",
       "currency": "USD",
       "sector": "Financials",
-      "currentPrice": 62.13,
-      "dataDate": "2026-07-27",
+      "currentPrice": 62.62,
+      "dataDate": "2026-07-28",
       "entryReferenceZone": [
-        61.93,
-        62.33
+        62.43,
+        62.81
       ],
       "targetRange": [
-        60.7,
-        63.68
+        61.2,
+        64.17
       ],
-      "weightedTarget": 62.32,
+      "weightedTarget": 62.84,
       "impliedReturn": 0.3,
       "setup": "Moderately positive",
       "risk": "Balanced",
       "confidence": "Medium",
-      "score": 0.75,
+      "score": 0.84,
       "metrics": {
-        "fiveDayMomentum": 1.4,
-        "twentyDayMomentum": 6.8,
-        "sixtyDayMomentum": 18,
-        "rsi14": 63,
-        "averageVolume": 35570907,
+        "fiveDayMomentum": 2.3,
+        "twentyDayMomentum": 8.2,
+        "sixtyDayMomentum": 17.1,
+        "rsi14": 78,
+        "averageVolume": 34269943,
+        "volumeTrend": -11
+      },
+      "scenarios": [
+        {
+          "name": "Bear",
+          "probability": 25,
+          "target": 61.2,
+          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
+        },
+        {
+          "name": "Base",
+          "probability": 50,
+          "target": 62.98,
+          "logic": "Recent momentum and sector direction persist without a material expectation shock."
+        },
+        {
+          "name": "Bull",
+          "probability": 25,
+          "target": 64.17,
+          "logic": "Relative strength holds and price extends about one volatility band higher."
+        }
+      ],
+      "drivers": [
+        "Positive 20-day price momentum of 8.2%.",
+        "Cooling 20-day volume versus the prior month (-11%).",
+        "Financials peer momentum is supportive."
+      ],
+      "pricedIn": "Positive momentum is already partly reflected near the upper end of its six-month range.",
+      "invalidation": "Failure to hold the $61.2 bear-case level would invalidate the near-term range.",
+      "sourceUrl": "https://finance.yahoo.com/quote/BAC"
+    },
+    {
+      "rank": 6,
+      "company": "Ford Motor",
+      "ticker": "F",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "sector": "Consumer Discretionary",
+      "currentPrice": 14.96,
+      "dataDate": "2026-07-28",
+      "entryReferenceZone": [
+        14.9,
+        15.02
+      ],
+      "targetRange": [
+        14.5,
+        15.46
+      ],
+      "weightedTarget": 15.03,
+      "impliedReturn": 0.5,
+      "setup": "Moderately positive",
+      "risk": "Balanced",
+      "confidence": "Medium",
+      "score": 0.83,
+      "metrics": {
+        "fiveDayMomentum": 4.8,
+        "twentyDayMomentum": 6.7,
+        "sixtyDayMomentum": 23.8,
+        "rsi14": 76,
+        "averageVolume": 51948643,
         "volumeTrend": -10
       },
       "scenarios": [
         {
           "name": "Bear",
           "probability": 25,
-          "target": 60.7,
+          "target": 14.5,
           "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
         },
         {
           "name": "Base",
           "probability": 50,
-          "target": 62.46,
+          "target": 15.08,
           "logic": "Recent momentum and sector direction persist without a material expectation shock."
         },
         {
           "name": "Bull",
           "probability": 25,
-          "target": 63.68,
+          "target": 15.46,
           "logic": "Relative strength holds and price extends about one volatility band higher."
         }
       ],
       "drivers": [
-        "Positive 20-day price momentum of 6.8%.",
+        "Positive 20-day price momentum of 6.7%.",
         "Cooling 20-day volume versus the prior month (-10%).",
-        "Financials peer momentum is supportive."
-      ],
-      "pricedIn": "Positive momentum is already partly reflected near the upper end of its six-month range.",
-      "invalidation": "Failure to hold the $60.7 bear-case level would invalidate the near-term range.",
-      "sourceUrl": "https://finance.yahoo.com/quote/BAC"
-    },
-    {
-      "rank": 6,
-      "company": "SLB",
-      "ticker": "SLB",
-      "exchange": "NYSE",
-      "currency": "USD",
-      "sector": "Energy",
-      "currentPrice": 51.53,
-      "dataDate": "2026-07-27",
-      "entryReferenceZone": [
-        51.23,
-        51.83
-      ],
-      "targetRange": [
-        49.36,
-        53.95
-      ],
-      "weightedTarget": 51.93,
-      "impliedReturn": 0.8,
-      "setup": "Strong bullish setup",
-      "risk": "Balanced",
-      "confidence": "Medium",
-      "score": 1.02,
-      "metrics": {
-        "fiveDayMomentum": 9.7,
-        "twentyDayMomentum": 8.7,
-        "sixtyDayMomentum": -7.4,
-        "rsi14": 78,
-        "averageVolume": 12117096,
-        "volumeTrend": -32
-      },
-      "scenarios": [
-        {
-          "name": "Bear",
-          "probability": 25,
-          "target": 49.36,
-          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
-        },
-        {
-          "name": "Base",
-          "probability": 50,
-          "target": 52.21,
-          "logic": "Recent momentum and sector direction persist without a material expectation shock."
-        },
-        {
-          "name": "Bull",
-          "probability": 25,
-          "target": 53.95,
-          "logic": "Relative strength holds and price extends about one volatility band higher."
-        }
-      ],
-      "drivers": [
-        "Positive 20-day price momentum of 8.7%.",
-        "Cooling 20-day volume versus the prior month (-32%).",
-        "Energy peer momentum is supportive."
+        "Consumer Discretionary peer momentum is a headwind."
       ],
       "pricedIn": "Price sits mid-range, suggesting neither an obvious momentum premium nor a deep expectation discount.",
-      "invalidation": "Failure to hold the $49.36 bear-case level would invalidate the near-term range.",
-      "sourceUrl": "https://finance.yahoo.com/quote/SLB"
-    },
-    {
-      "rank": 7,
-      "company": "Ford Motor",
-      "ticker": "F",
-      "exchange": "NYSE",
-      "currency": "USD",
-      "sector": "Consumer Discretionary",
-      "currentPrice": 14.68,
-      "dataDate": "2026-07-27",
-      "entryReferenceZone": [
-        14.61,
-        14.75
-      ],
-      "targetRange": [
-        14.21,
-        15.2
-      ],
-      "weightedTarget": 14.75,
-      "impliedReturn": 0.5,
-      "setup": "Moderately positive",
-      "risk": "Balanced",
-      "confidence": "Medium",
-      "score": 0.78,
-      "metrics": {
-        "fiveDayMomentum": 3.2,
-        "twentyDayMomentum": 4,
-        "sixtyDayMomentum": 18.4,
-        "rsi14": 65,
-        "averageVolume": 49506422,
-        "volumeTrend": -24
-      },
-      "scenarios": [
-        {
-          "name": "Bear",
-          "probability": 25,
-          "target": 14.21,
-          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
-        },
-        {
-          "name": "Base",
-          "probability": 50,
-          "target": 14.79,
-          "logic": "Recent momentum and sector direction persist without a material expectation shock."
-        },
-        {
-          "name": "Bull",
-          "probability": 25,
-          "target": 15.2,
-          "logic": "Relative strength holds and price extends about one volatility band higher."
-        }
-      ],
-      "drivers": [
-        "Positive 20-day price momentum of 4%.",
-        "Cooling 20-day volume versus the prior month (-24%).",
-        "Consumer Discretionary peer momentum is supportive."
-      ],
-      "pricedIn": "Price sits mid-range, suggesting neither an obvious momentum premium nor a deep expectation discount.",
-      "invalidation": "Failure to hold the $14.21 bear-case level would invalidate the near-term range.",
+      "invalidation": "Failure to hold the $14.5 bear-case level would invalidate the near-term range.",
       "sourceUrl": "https://finance.yahoo.com/quote/F"
     },
     {
-      "rank": 8,
-      "company": "Charles Schwab",
-      "ticker": "SCHW",
-      "exchange": "NYSE",
-      "currency": "USD",
-      "sector": "Financials",
-      "currentPrice": 104.18,
-      "dataDate": "2026-07-27",
-      "entryReferenceZone": [
-        103.75,
-        104.61
-      ],
-      "targetRange": [
-        101.08,
-        107.61
-      ],
-      "weightedTarget": 104.71,
-      "impliedReturn": 0.5,
-      "setup": "Moderately positive",
-      "risk": "Balanced",
-      "confidence": "Medium",
-      "score": 0.94,
-      "metrics": {
-        "fiveDayMomentum": 2.6,
-        "twentyDayMomentum": 16.5,
-        "sixtyDayMomentum": 14.7,
-        "rsi14": 61,
-        "averageVolume": 9478807,
-        "volumeTrend": -26
-      },
-      "scenarios": [
-        {
-          "name": "Bear",
-          "probability": 25,
-          "target": 101.08,
-          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
-        },
-        {
-          "name": "Base",
-          "probability": 50,
-          "target": 105.07,
-          "logic": "Recent momentum and sector direction persist without a material expectation shock."
-        },
-        {
-          "name": "Bull",
-          "probability": 25,
-          "target": 107.61,
-          "logic": "Relative strength holds and price extends about one volatility band higher."
-        }
-      ],
-      "drivers": [
-        "Positive 20-day price momentum of 16.5%.",
-        "Cooling 20-day volume versus the prior month (-26%).",
-        "Financials peer momentum is supportive."
-      ],
-      "pricedIn": "Positive momentum is already partly reflected near the upper end of its six-month range.",
-      "invalidation": "Failure to hold the $101.08 bear-case level would invalidate the near-term range.",
-      "sourceUrl": "https://finance.yahoo.com/quote/SCHW"
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "company": "Pfizer",
       "ticker": "PFE",
       "exchange": "NYSE",
       "currency": "USD",
       "sector": "Health Care",
-      "currentPrice": 24.67,
-      "dataDate": "2026-07-27",
+      "currentPrice": 25.25,
+      "dataDate": "2026-07-28",
       "entryReferenceZone": [
-        24.59,
-        24.75
+        25.17,
+        25.33
       ],
       "targetRange": [
-        24.07,
-        25.31
+        24.65,
+        25.9
       ],
-      "weightedTarget": 24.73,
-      "impliedReturn": 0.2,
+      "weightedTarget": 25.34,
+      "impliedReturn": 0.3,
       "setup": "Moderately positive",
       "risk": "Balanced",
       "confidence": "Medium",
-      "score": 0.54,
+      "score": 0.79,
       "metrics": {
-        "fiveDayMomentum": -1.5,
-        "twentyDayMomentum": 4.2,
-        "sixtyDayMomentum": -6.8,
-        "rsi14": 64,
-        "averageVolume": 42451477,
-        "volumeTrend": -6
+        "fiveDayMomentum": 1.2,
+        "twentyDayMomentum": 3.6,
+        "sixtyDayMomentum": -5.4,
+        "rsi14": 66,
+        "averageVolume": 41507080,
+        "volumeTrend": -11
       },
       "scenarios": [
         {
           "name": "Bear",
           "probability": 25,
-          "target": 24.07,
+          "target": 24.65,
           "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
         },
         {
           "name": "Base",
           "probability": 50,
-          "target": 24.77,
+          "target": 25.39,
           "logic": "Recent momentum and sector direction persist without a material expectation shock."
         },
         {
           "name": "Bull",
           "probability": 25,
-          "target": 25.31,
+          "target": 25.9,
           "logic": "Relative strength holds and price extends about one volatility band higher."
         }
       ],
       "drivers": [
-        "Positive 20-day price momentum of 4.2%.",
-        "Cooling 20-day volume versus the prior month (-6%).",
+        "Positive 20-day price momentum of 3.6%.",
+        "Cooling 20-day volume versus the prior month (-11%).",
         "Health Care peer momentum is supportive."
       ],
       "pricedIn": "Expectations appear subdued versus the six-month range, leaving rebound room if momentum persists.",
-      "invalidation": "Failure to hold the $24.07 bear-case level would invalidate the near-term range.",
+      "invalidation": "Failure to hold the $24.65 bear-case level would invalidate the near-term range.",
       "sourceUrl": "https://finance.yahoo.com/quote/PFE"
     },
     {
-      "rank": 10,
-      "company": "Bristol-Myers Squibb",
-      "ticker": "BMY",
-      "exchange": "NYSE",
+      "rank": 8,
+      "company": "PayPal",
+      "ticker": "PYPL",
+      "exchange": "NASDAQ",
       "currency": "USD",
-      "sector": "Health Care",
-      "currentPrice": 62.56,
-      "dataDate": "2026-07-27",
+      "sector": "Financials",
+      "currentPrice": 58.32,
+      "dataDate": "2026-07-28",
       "entryReferenceZone": [
-        62.24,
-        62.88
+        57.74,
+        58.9
       ],
       "targetRange": [
-        60.2,
-        65.16
+        54.13,
+        63.01
       ],
-      "weightedTarget": 62.95,
-      "impliedReturn": 0.6,
-      "setup": "Moderately positive",
-      "risk": "Balanced",
+      "weightedTarget": 59.11,
+      "impliedReturn": 1.4,
+      "setup": "Strong bullish setup",
+      "risk": "Elevated",
       "confidence": "Medium",
-      "score": 0.9,
+      "score": 1.05,
       "metrics": {
-        "fiveDayMomentum": 3,
-        "twentyDayMomentum": 12.9,
-        "sixtyDayMomentum": 7.4,
-        "rsi14": 71,
-        "averageVolume": 10766033,
-        "volumeTrend": -25
+        "fiveDayMomentum": 4.4,
+        "twentyDayMomentum": 31.4,
+        "sixtyDayMomentum": 16.3,
+        "rsi14": 89,
+        "averageVolume": 19533919,
+        "volumeTrend": 12
       },
       "scenarios": [
         {
           "name": "Bear",
           "probability": 25,
-          "target": 60.2,
+          "target": 54.13,
           "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
         },
         {
           "name": "Base",
           "probability": 50,
-          "target": 63.21,
+          "target": 59.66,
           "logic": "Recent momentum and sector direction persist without a material expectation shock."
         },
         {
           "name": "Bull",
           "probability": 25,
-          "target": 65.16,
+          "target": 63.01,
+          "logic": "Relative strength holds and price extends about one volatility band higher."
+        }
+      ],
+      "drivers": [
+        "Positive 20-day price momentum of 31.4%.",
+        "Rising 20-day volume versus the prior month (12%).",
+        "Financials peer momentum is supportive."
+      ],
+      "pricedIn": "Positive momentum is already partly reflected near the upper end of its six-month range.",
+      "invalidation": "Failure to hold the $54.13 bear-case level would invalidate the near-term range.",
+      "sourceUrl": "https://finance.yahoo.com/quote/PYPL"
+    },
+    {
+      "rank": 9,
+      "company": "Kraft Heinz",
+      "ticker": "KHC",
+      "exchange": "NASDAQ",
+      "currency": "USD",
+      "sector": "Consumer Staples",
+      "currentPrice": 27.3,
+      "dataDate": "2026-07-28",
+      "entryReferenceZone": [
+        27.16,
+        27.44
+      ],
+      "targetRange": [
+        26.25,
+        28.47
+      ],
+      "weightedTarget": 27.5,
+      "impliedReturn": 0.7,
+      "setup": "Strong bullish setup",
+      "risk": "Balanced",
+      "confidence": "Medium",
+      "score": 1.04,
+      "metrics": {
+        "fiveDayMomentum": 5.9,
+        "twentyDayMomentum": 12.9,
+        "sixtyDayMomentum": 20.5,
+        "rsi14": 73,
+        "averageVolume": 12924209,
+        "volumeTrend": -10
+      },
+      "scenarios": [
+        {
+          "name": "Bear",
+          "probability": 25,
+          "target": 26.25,
+          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
+        },
+        {
+          "name": "Base",
+          "probability": 50,
+          "target": 27.63,
+          "logic": "Recent momentum and sector direction persist without a material expectation shock."
+        },
+        {
+          "name": "Bull",
+          "probability": 25,
+          "target": 28.47,
           "logic": "Relative strength holds and price extends about one volatility band higher."
         }
       ],
       "drivers": [
         "Positive 20-day price momentum of 12.9%.",
-        "Cooling 20-day volume versus the prior month (-25%).",
-        "Health Care peer momentum is supportive."
+        "Cooling 20-day volume versus the prior month (-10%).",
+        "Consumer Staples peer momentum is supportive."
       ],
       "pricedIn": "Positive momentum is already partly reflected near the upper end of its six-month range.",
-      "invalidation": "Failure to hold the $60.2 bear-case level would invalidate the near-term range.",
-      "sourceUrl": "https://finance.yahoo.com/quote/BMY"
+      "invalidation": "Failure to hold the $26.25 bear-case level would invalidate the near-term range.",
+      "sourceUrl": "https://finance.yahoo.com/quote/KHC"
+    },
+    {
+      "rank": 10,
+      "company": "Coca-Cola",
+      "ticker": "KO",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "sector": "Consumer Staples",
+      "currentPrice": 88.27,
+      "dataDate": "2026-07-28",
+      "entryReferenceZone": [
+        87.84,
+        88.7
+      ],
+      "targetRange": [
+        85.12,
+        91.77
+      ],
+      "weightedTarget": 88.82,
+      "impliedReturn": 0.6,
+      "setup": "Moderately positive",
+      "risk": "Balanced",
+      "confidence": "Medium",
+      "score": 0.97,
+      "metrics": {
+        "fiveDayMomentum": 7.7,
+        "twentyDayMomentum": 6.8,
+        "sixtyDayMomentum": 12.1,
+        "rsi14": 63,
+        "averageVolume": 17311783,
+        "volumeTrend": -16
+      },
+      "scenarios": [
+        {
+          "name": "Bear",
+          "probability": 25,
+          "target": 85.12,
+          "logic": "Momentum fails and the stock moves roughly one horizon-adjusted volatility band lower."
+        },
+        {
+          "name": "Base",
+          "probability": 50,
+          "target": 89.2,
+          "logic": "Recent momentum and sector direction persist without a material expectation shock."
+        },
+        {
+          "name": "Bull",
+          "probability": 25,
+          "target": 91.77,
+          "logic": "Relative strength holds and price extends about one volatility band higher."
+        }
+      ],
+      "drivers": [
+        "Positive 20-day price momentum of 6.8%.",
+        "Cooling 20-day volume versus the prior month (-16%).",
+        "Consumer Staples peer momentum is supportive."
+      ],
+      "pricedIn": "Positive momentum is already partly reflected near the upper end of its six-month range.",
+      "invalidation": "Failure to hold the $85.12 bear-case level would invalidate the near-term range.",
+      "sourceUrl": "https://finance.yahoo.com/quote/KO"
     }
   ]
 }
