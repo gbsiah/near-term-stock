@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:10:40.171Z",
+  "generatedAt": "2026-09-03T00:12:55.795Z",
   "dataDate": "2026-09-01",
   "horizon": "1–5 trading days",
   "universe": "59 pre-screened liquid U.S. listings; $2–$120 price; 20-day average volume of at least 500,000 shares",
@@ -34,8 +34,8 @@
         "twentyDayMomentum": 13.7,
         "sixtyDayMomentum": -6.1,
         "rsi14": 71,
-        "averageVolume": 10642391,
-        "volumeTrend": -15
+        "averageVolume": 10666955,
+        "volumeTrend": -14
       },
       "scenarios": [
         {
@@ -59,7 +59,7 @@
       ],
       "drivers": [
         "Positive 20-day price momentum of 13.7%.",
-        "Cooling 20-day volume versus the prior month (-15%).",
+        "Cooling 20-day volume versus the prior month (-14%).",
         "Energy peer momentum is supportive."
       ],
       "pricedIn": "Price sits mid-range, suggesting neither an obvious momentum premium nor a deep expectation discount.",
@@ -94,7 +94,7 @@
         "twentyDayMomentum": 11.4,
         "sixtyDayMomentum": 10.8,
         "rsi14": 71,
-        "averageVolume": 10550715,
+        "averageVolume": 10557300,
         "volumeTrend": 6
       },
       "scenarios": [
@@ -154,7 +154,7 @@
         "twentyDayMomentum": 11.2,
         "sixtyDayMomentum": 14.3,
         "rsi14": 77,
-        "averageVolume": 33970543,
+        "averageVolume": 33971025,
         "volumeTrend": -56
       },
       "scenarios": [
@@ -214,7 +214,7 @@
         "twentyDayMomentum": 12.5,
         "sixtyDayMomentum": 4.2,
         "rsi14": 66,
-        "averageVolume": 11444039,
+        "averageVolume": 11450565,
         "volumeTrend": -12
       },
       "scenarios": [
@@ -274,7 +274,7 @@
         "twentyDayMomentum": 9.1,
         "sixtyDayMomentum": 11.4,
         "rsi14": 65,
-        "averageVolume": 8095264,
+        "averageVolume": 8096620,
         "volumeTrend": 12
       },
       "scenarios": [
@@ -334,7 +334,7 @@
         "twentyDayMomentum": 10.6,
         "sixtyDayMomentum": 7.1,
         "rsi14": 61,
-        "averageVolume": 7848855,
+        "averageVolume": 7855020,
         "volumeTrend": -13
       },
       "scenarios": [
@@ -394,7 +394,7 @@
         "twentyDayMomentum": 12.4,
         "sixtyDayMomentum": 9.6,
         "rsi14": 74,
-        "averageVolume": 37276778,
+        "averageVolume": 37373300,
         "volumeTrend": -5
       },
       "scenarios": [
@@ -454,7 +454,7 @@
         "twentyDayMomentum": 7.3,
         "sixtyDayMomentum": 10.9,
         "rsi14": 76,
-        "averageVolume": 18395298,
+        "averageVolume": 18395515,
         "volumeTrend": -31
       },
       "scenarios": [
@@ -514,7 +514,7 @@
         "twentyDayMomentum": 9.8,
         "sixtyDayMomentum": 7.9,
         "rsi14": 62,
-        "averageVolume": 18792288,
+        "averageVolume": 18803725,
         "volumeTrend": -24
       },
       "scenarios": [
@@ -574,7 +574,7 @@
         "twentyDayMomentum": 5.9,
         "sixtyDayMomentum": 4.5,
         "rsi14": 64,
-        "averageVolume": 3777032,
+        "averageVolume": 3779820,
         "volumeTrend": 4
       },
       "scenarios": [
