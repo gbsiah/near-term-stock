@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T01:40:09.780Z",
+  "generatedAt": "2026-10-03T01:10:47.582Z",
   "dataDate": "2026-10-01",
   "horizon": "1–5 trading days",
   "universe": "59 pre-screened liquid U.S. listings; $2–$120 price; 20-day average volume of at least 500,000 shares",
@@ -21,20 +21,20 @@
       ],
       "targetRange": [
         74.63,
-        86.33
+        86.34
       ],
       "weightedTarget": 81.36,
       "impliedReturn": 1.6,
       "setup": "Strong bullish setup",
       "risk": "Elevated",
       "confidence": "Medium",
-      "score": 1.29,
+      "score": 1.3,
       "metrics": {
         "fiveDayMomentum": 9.5,
         "twentyDayMomentum": 10.7,
         "sixtyDayMomentum": -14.6,
         "rsi14": 56,
-        "averageVolume": 11624590,
+        "averageVolume": 11628835,
         "volumeTrend": 63
       },
       "scenarios": [
@@ -53,7 +53,7 @@
         {
           "name": "Bull",
           "probability": 25,
-          "target": 86.33,
+          "target": 86.34,
           "logic": "Relative strength holds and price extends about one volatility band higher."
         }
       ],
@@ -94,7 +94,7 @@
         "twentyDayMomentum": 33.3,
         "sixtyDayMomentum": 8.9,
         "rsi14": 66,
-        "averageVolume": 111341185,
+        "averageVolume": 111352400,
         "volumeTrend": 15
       },
       "scenarios": [
@@ -154,7 +154,7 @@
         "twentyDayMomentum": 24.6,
         "sixtyDayMomentum": 44.6,
         "rsi14": 56,
-        "averageVolume": 25777965,
+        "averageVolume": 25779220,
         "volumeTrend": 44
       },
       "scenarios": [
@@ -454,7 +454,7 @@
         "twentyDayMomentum": -0.6,
         "sixtyDayMomentum": -4.4,
         "rsi14": 40,
-        "averageVolume": 18210295,
+        "averageVolume": 18210890,
         "volumeTrend": -8
       },
       "scenarios": [
