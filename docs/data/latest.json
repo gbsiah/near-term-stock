@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T03:28:38.795Z",
+  "generatedAt": "2026-11-04T02:17:44.841Z",
   "dataDate": "2026-11-02",
   "horizon": "1–5 trading days",
   "universe": "59 pre-screened liquid U.S. listings; $2–$120 price; 20-day average volume of at least 500,000 shares",
@@ -34,7 +34,7 @@
         "twentyDayMomentum": 20.6,
         "sixtyDayMomentum": -6.8,
         "rsi14": 70,
-        "averageVolume": 21936425,
+        "averageVolume": 21937485,
         "volumeTrend": 5
       },
       "scenarios": [
@@ -94,7 +94,7 @@
         "twentyDayMomentum": 4.3,
         "sixtyDayMomentum": -9.7,
         "rsi14": 59,
-        "averageVolume": 55341550,
+        "averageVolume": 55350920,
         "volumeTrend": 20
       },
       "scenarios": [
@@ -154,7 +154,7 @@
         "twentyDayMomentum": 3.7,
         "sixtyDayMomentum": -9.9,
         "rsi14": 60,
-        "averageVolume": 41907255,
+        "averageVolume": 41912995,
         "volumeTrend": -14
       },
       "scenarios": [
@@ -214,7 +214,7 @@
         "twentyDayMomentum": 7.5,
         "sixtyDayMomentum": -23.9,
         "rsi14": 49,
-        "averageVolume": 33004405,
+        "averageVolume": 33005385,
         "volumeTrend": -19
       },
       "scenarios": [
@@ -274,7 +274,7 @@
         "twentyDayMomentum": 10.8,
         "sixtyDayMomentum": 10.1,
         "rsi14": 67,
-        "averageVolume": 16734305,
+        "averageVolume": 16736200,
         "volumeTrend": 4
       },
       "scenarios": [
@@ -334,7 +334,7 @@
         "twentyDayMomentum": 11.9,
         "sixtyDayMomentum": 14.6,
         "rsi14": 73,
-        "averageVolume": 30691645,
+        "averageVolume": 30696495,
         "volumeTrend": -7
       },
       "scenarios": [
@@ -394,7 +394,7 @@
         "twentyDayMomentum": 17.6,
         "sixtyDayMomentum": 3.7,
         "rsi14": 70,
-        "averageVolume": 19735060,
+        "averageVolume": 19736270,
         "volumeTrend": -27
       },
       "scenarios": [
@@ -454,7 +454,7 @@
         "twentyDayMomentum": 10.7,
         "sixtyDayMomentum": -5.9,
         "rsi14": 75,
-        "averageVolume": 33043590,
+        "averageVolume": 33045030,
         "volumeTrend": 1
       },
       "scenarios": [
@@ -514,7 +514,7 @@
         "twentyDayMomentum": 12.1,
         "sixtyDayMomentum": 2.7,
         "rsi14": 61,
-        "averageVolume": 8387195,
+        "averageVolume": 8387710,
         "volumeTrend": 6
       },
       "scenarios": [
@@ -574,7 +574,7 @@
         "twentyDayMomentum": -9.7,
         "sixtyDayMomentum": -17.6,
         "rsi14": 48,
-        "averageVolume": 28442670,
+        "averageVolume": 28448695,
         "volumeTrend": 14
       },
       "scenarios": [
