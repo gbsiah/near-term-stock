@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T04:08:38.466Z",
+  "generatedAt": "2026-11-27T04:12:56.059Z",
   "dataDate": "2026-11-25",
   "horizon": "1–5 trading days",
   "universe": "59 pre-screened liquid U.S. listings; $2–$120 price; 20-day average volume of at least 500,000 shares",
@@ -334,7 +334,7 @@
         "twentyDayMomentum": 1.8,
         "sixtyDayMomentum": -12.1,
         "rsi14": 43,
-        "averageVolume": 46513725,
+        "averageVolume": 46514310,
         "volumeTrend": 16
       },
       "scenarios": [
@@ -394,7 +394,7 @@
         "twentyDayMomentum": -5.8,
         "sixtyDayMomentum": -7.2,
         "rsi14": 49,
-        "averageVolume": 15097515,
+        "averageVolume": 15098470,
         "volumeTrend": 30
       },
       "scenarios": [
@@ -454,7 +454,7 @@
         "twentyDayMomentum": 6.4,
         "sixtyDayMomentum": 10.9,
         "rsi14": 58,
-        "averageVolume": 20537945,
+        "averageVolume": 20538975,
         "volumeTrend": 22
       },
       "scenarios": [
